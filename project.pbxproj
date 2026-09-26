@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0782273B8CE809DA4E6240C6 /* MoneyBotik/VoiceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F6DD26B44B87B9725EA15 /* MoneyBotik/VoiceService.swift */; };
+		08920770699BCD29D8587B5E /* MoneyBotik/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4545F5318A0046043187F2EB /* MoneyBotik/Resources/Assets.xcassets */; };
+		0EB647CC299ED95234C00D51 /* MoneyBotik/HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45653967AE9929452D4E548 /* MoneyBotik/HistoryView.swift */; };
+		22F87C8EA692F9761F2AE2CE /* MoneyBotik/ExpenseCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BA39727CE3A9BA2B2FEBBB /* MoneyBotik/ExpenseCore.swift */; };
+		289C8D3C22097DA2A314830F /* MoneyBotik/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE96C56CBAC202420A47BC /* MoneyBotik/SettingsView.swift */; };
+		58BC2A3AE9D486DE4E013FC5 /* MoneyBotik/LocalTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E057A93E6F9DCB07990B92 /* MoneyBotik/LocalTranscriber.swift */; };
+		9592AC41513C47E2D252525E /* MoneyBotik/Resources/ggml-base.bin in Resources */ = {isa = PBXBuildFile; fileRef = CCD702F156D5795437B88D3D /* MoneyBotik/Resources/ggml-base.bin */; };
+		9FD78D7CD15DCAAE31666556 /* Vendor/build-apple/whisper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F178867DA2879CAE0F60630A /* Vendor/build-apple/whisper.xcframework */; };
+		A20E9850047DC122C8B615FD /* MoneyBotik/Resources/model-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22BD173D5E36B6889F4CEAEF /* MoneyBotik/Resources/model-LICENSE.txt */; };
+		B0AA58B57575E51BCA3F672D /* MoneyBotik/Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EAAAAEC84AAE203874A82FCF /* MoneyBotik/Resources/PrivacyInfo.xcprivacy */; };
+		B36E572734A25B01A4705E00 /* MoneyBotik/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD633DB4C6FF5320DE4E811 /* MoneyBotik/DashboardView.swift */; };
+		B3C1C9E59B108992561D729F /* MoneyBotik/Resources/whisper-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C088ED3CD991D13D854779C /* MoneyBotik/Resources/whisper-LICENSE.txt */; };
+		B73E4DD983E94B2410986163 /* MoneyBotik/MoneyBotikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8957D7B28AAD879C9727A /* MoneyBotik/MoneyBotikApp.swift */; };
+		B76EC4CA40DCD05E19BC785B /* MoneyBotik/ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6C62AEDD71DB776AC847D /* MoneyBotik/ChatView.swift */; };
+		CFFF27C96089B93150F3553B /* Vendor/build-apple/whisper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F178867DA2879CAE0F60630A /* Vendor/build-apple/whisper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD75603E55B1A8AFDB3AED8F /* MoneyBotik/ExpenseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F35AD6B703693E1B90CD5FA /* MoneyBotik/ExpenseStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F84E2E2DADD87384FB55F258 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFFF27C96089B93150F3553B /* Vendor/build-apple/whisper.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BD8957D7B28AAD879C9727A /* MoneyBotik/MoneyBotikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/MoneyBotikApp.swift; sourceTree = "<group>"; };
+		1DF6C62AEDD71DB776AC847D /* MoneyBotik/ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/ChatView.swift; sourceTree = "<group>"; };
+		22BD173D5E36B6889F4CEAEF /* MoneyBotik/Resources/model-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MoneyBotik/Resources/model-LICENSE.txt"; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* MoneyBotik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MoneyBotik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD633DB4C6FF5320DE4E811 /* MoneyBotik/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/DashboardView.swift; sourceTree = "<group>"; };
+		3F35AD6B703693E1B90CD5FA /* MoneyBotik/ExpenseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/ExpenseStore.swift; sourceTree = "<group>"; };
+		4545F5318A0046043187F2EB /* MoneyBotik/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MoneyBotik/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		5C088ED3CD991D13D854779C /* MoneyBotik/Resources/whisper-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MoneyBotik/Resources/whisper-LICENSE.txt"; sourceTree = "<group>"; };
+		825F6DD26B44B87B9725EA15 /* MoneyBotik/VoiceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/VoiceService.swift; sourceTree = "<group>"; };
+		CCD702F156D5795437B88D3D /* MoneyBotik/Resources/ggml-base.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "MoneyBotik/Resources/ggml-base.bin"; sourceTree = "<group>"; };
+		E3BA39727CE3A9BA2B2FEBBB /* MoneyBotik/ExpenseCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/ExpenseCore.swift; sourceTree = "<group>"; };
+		E45653967AE9929452D4E548 /* MoneyBotik/HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/HistoryView.swift; sourceTree = "<group>"; };
+		EAAAAEC84AAE203874A82FCF /* MoneyBotik/Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MoneyBotik/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EEDE96C56CBAC202420A47BC /* MoneyBotik/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/SettingsView.swift; sourceTree = "<group>"; };
+		F178867DA2879CAE0F60630A /* Vendor/build-apple/whisper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "Vendor/build-apple/whisper.xcframework"; sourceTree = "<group>"; };
+		F6E057A93E6F9DCB07990B92 /* MoneyBotik/LocalTranscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBotik/LocalTranscriber.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD78D7CD15DCAAE31666556 /* Vendor/build-apple/whisper.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64292B1C2B2E13EAD8788FC8 = {
+			isa = PBXGroup;
+			children = (
+				1DF6C62AEDD71DB776AC847D /* MoneyBotik/ChatView.swift */,
+				3CD633DB4C6FF5320DE4E811 /* MoneyBotik/DashboardView.swift */,
+				E3BA39727CE3A9BA2B2FEBBB /* MoneyBotik/ExpenseCore.swift */,
+				3F35AD6B703693E1B90CD5FA /* MoneyBotik/ExpenseStore.swift */,
+				E45653967AE9929452D4E548 /* MoneyBotik/HistoryView.swift */,
+				F6E057A93E6F9DCB07990B92 /* MoneyBotik/LocalTranscriber.swift */,
+				0BD8957D7B28AAD879C9727A /* MoneyBotik/MoneyBotikApp.swift */,
+				EEDE96C56CBAC202420A47BC /* MoneyBotik/SettingsView.swift */,
+				825F6DD26B44B87B9725EA15 /* MoneyBotik/VoiceService.swift */,
+				CCD702F156D5795437B88D3D /* MoneyBotik/Resources/ggml-base.bin */,
+				4545F5318A0046043187F2EB /* MoneyBotik/Resources/Assets.xcassets */,
+				EAAAAEC84AAE203874A82FCF /* MoneyBotik/Resources/PrivacyInfo.xcprivacy */,
+				5C088ED3CD991D13D854779C /* MoneyBotik/Resources/whisper-LICENSE.txt */,
+				22BD173D5E36B6889F4CEAEF /* MoneyBotik/Resources/model-LICENSE.txt */,
+				F178867DA2879CAE0F60630A /* Vendor/build-apple/whisper.xcframework */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* MoneyBotik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* MoneyBotik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB66943637FEB59E5652D81 /* Build configuration list for PBXNativeTarget "MoneyBotik" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+				F84E2E2DADD87384FB55F258 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyBotik;
+			productName = MoneyBotik;
+			productReference = 38A007151ABE87CC01A5B6E9 /* MoneyBotik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "MoneyBotik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				en,
+				Base,
+			);
+			mainGroup = 64292B1C2B2E13EAD8788FC8;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* MoneyBotik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9592AC41513C47E2D252525E /* MoneyBotik/Resources/ggml-base.bin in Resources */,
+				08920770699BCD29D8587B5E /* MoneyBotik/Resources/Assets.xcassets in Resources */,
+				B0AA58B57575E51BCA3F672D /* MoneyBotik/Resources/PrivacyInfo.xcprivacy in Resources */,
+				B3C1C9E59B108992561D729F /* MoneyBotik/Resources/whisper-LICENSE.txt in Resources */,
+				A20E9850047DC122C8B615FD /* MoneyBotik/Resources/model-LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76EC4CA40DCD05E19BC785B /* MoneyBotik/ChatView.swift in Sources */,
+				B36E572734A25B01A4705E00 /* MoneyBotik/DashboardView.swift in Sources */,
+				22F87C8EA692F9761F2AE2CE /* MoneyBotik/ExpenseCore.swift in Sources */,
+				FD75603E55B1A8AFDB3AED8F /* MoneyBotik/ExpenseStore.swift in Sources */,
+				0EB647CC299ED95234C00D51 /* MoneyBotik/HistoryView.swift in Sources */,
+				58BC2A3AE9D486DE4E013FC5 /* MoneyBotik/LocalTranscriber.swift in Sources */,
+				B73E4DD983E94B2410986163 /* MoneyBotik/MoneyBotikApp.swift in Sources */,
+				289C8D3C22097DA2A314830F /* MoneyBotik/SettingsView.swift in Sources */,
+				0782273B8CE809DA4E6240C6 /* MoneyBotik/VoiceService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DBF25066740E4B8CB8AB751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		369E70E1EE7A07C74E211771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MoneyBotik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moneybotik.personal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		502D350B1D76FA1259FFDE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MoneyBotik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moneybotik.personal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		62F853339D0D10F1A61A1EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB66943637FEB59E5652D81 /* Build configuration list for PBXNativeTarget "MoneyBotik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369E70E1EE7A07C74E211771 /* Debug */,
+				502D350B1D76FA1259FFDE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "MoneyBotik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F853339D0D10F1A61A1EFA /* Debug */,
+				0DBF25066740E4B8CB8AB751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

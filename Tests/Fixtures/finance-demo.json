@@ -1,0 +1,138 @@
+{
+  "version": 2,
+  "expenses": [
+    {
+      "id": "f13d9f05-2d0e-4305-91b5-4b43b8432ff0",
+      "title": "Зарплата за сентябрь",
+      "cents": 9000000,
+      "category": "Зарплата",
+      "date": 811705000.3734279,
+      "kindValue": "Доход",
+      "accountID": "card"
+    },
+    {
+      "id": "263f76d9-1261-42cb-831b-613b093ac3d1",
+      "title": "Подработка: оформление презентации",
+      "cents": 500000,
+      "category": "Подработка",
+      "date": 811532200.3734279,
+      "kindValue": "Доход",
+      "accountID": "card"
+    },
+    {
+      "id": "74da42e2-dd1d-4d04-9b98-46d8167350af",
+      "title": "Кешбэк за покупки",
+      "cents": 20050,
+      "category": "Кешбэк",
+      "date": 811445800.3734279,
+      "kindValue": "Доход",
+      "accountID": "card"
+    },
+    {
+      "id": "3ac42ad4-8036-4d4d-b50a-a012ebb8bc8c",
+      "title": "Кофе с собой",
+      "cents": 25000,
+      "category": "Кафе и еда",
+      "date": 811705000.3734279,
+      "kindValue": "Расход",
+      "accountID": "card"
+    },
+    {
+      "id": "60e186ce-900f-4ddc-88e1-cb889a69d2bc",
+      "title": "Продукты на неделю",
+      "cents": 145050,
+      "category": "Продукты",
+      "date": 811618600.3734279,
+      "kindValue": "Расход",
+      "accountID": "card"
+    },
+    {
+      "id": "529a3163-38f0-4b14-b886-d46cff242264",
+      "title": "Такси домой",
+      "cents": 48000,
+      "category": "Транспорт",
+      "date": 811705000.3734279,
+      "kindValue": "Расход",
+      "accountID": "cash"
+    },
+    {
+      "id": "57e957d5-5980-4c89-abd2-d3c6f6182eca",
+      "title": "Шампунь и уход",
+      "cents": 40000,
+      "category": "Покупки",
+      "date": 811532200.3734279,
+      "kindValue": "Расход",
+      "accountID": "card"
+    },
+    {
+      "id": "a463ee78-a246-4c46-9a6b-7a999f841310",
+      "title": "Коммунальные услуги",
+      "cents": 650000,
+      "category": "Дом",
+      "date": 811445800.3734279,
+      "kindValue": "Расход",
+      "accountID": "card"
+    },
+    {
+      "id": "d50d1acf-44ca-47e1-8c75-884f39349493",
+      "title": "Возврат за продукты",
+      "cents": 20000,
+      "category": "Продукты",
+      "date": 811705000.3734279,
+      "kindValue": "Возврат",
+      "accountID": "card"
+    },
+    {
+      "id": "0778e3f1-636c-450d-a55a-8a4dc9779c7b",
+      "title": "Перевод на отпуск",
+      "cents": 500000,
+      "category": "Между счетами",
+      "date": 811705000.3734279,
+      "kindValue": "Перевод",
+      "accountID": "card",
+      "targetAccountID": "savings"
+    },
+    {
+      "id": "e26d508c-06fa-464d-bfa4-b594d7f9ed42",
+      "title": "Зарплата за прошлый месяц",
+      "cents": 8500000,
+      "category": "Зарплата",
+      "date": 808940200.3734279,
+      "kindValue": "Доход",
+      "accountID": "card"
+    },
+    {
+      "id": "c382849c-02cc-41d2-98b2-7d25cb38a1c1",
+      "title": "Покупки прошлого месяца",
+      "cents": 1500000,
+      "category": "Покупки",
+      "date": 808940200.3734279,
+      "kindValue": "Расход",
+      "accountID": "card"
+    }
+  ],
+  "messages": [],
+  "accounts": [
+    {
+      "id": "card",
+      "name": "Карта",
+      "openingCents": 100000,
+      "isSavings": false,
+      "goalCents": 0
+    },
+    {
+      "id": "cash",
+      "name": "Наличные",
+      "openingCents": 300000,
+      "isSavings": false,
+      "goalCents": 0
+    },
+    {
+      "id": "savings",
+      "name": "Накопления",
+      "openingCents": 1000000,
+      "isSavings": true,
+      "goalCents": 5000000
+    }
+  ]
+}
