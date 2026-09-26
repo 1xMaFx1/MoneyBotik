@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+.test-build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.ipa
+*.app/
+*.xcarchive/
+*.mobileprovision
+*.p12
+*.p8
+.env
+.env.*
+Vendor/build-apple/
+MoneyBotik/Resources/ggml-*.bin
